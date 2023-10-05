@@ -8,7 +8,7 @@ app.use(express.static("./public"));
 
 //When the client sends a get request to the / endpoint, send the /src/pages/index.html file
 app.get("/", function(req, res) {
-  res.sendFile(__dirname + "/src/pages/index.html");
+  res.sendFile(__dirname + "/index.html");
 });
 
 //When the client sends a post request to the / endpoint, send the /src/pages/submitted.html file
