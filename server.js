@@ -13,7 +13,7 @@ app.get("/", function(req, res) {
 
 //When the client sends a post request to the / endpoint, send the /src/pages/submitted.html file
 app.post("/", function(req, res) {
-  res.sendFile(__dirname + "/index.html2");
+  res.sendFile(__dirname + "/index2.html");
 });
 
 //make sure the server is listening on port 3000
